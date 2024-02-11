@@ -13,7 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({ { import = "dafas.plugins" }, { import = "dafas.plugins.lsp" } }, {
 	install = {
-		colorscheme = { "github_dark_dimmed" },
+		colorscheme = { "catppuccin/nvim" },
 	},
 	checker = {
 		enabled = true,
