@@ -59,6 +59,7 @@ return {
 				{ name = "path", group_index = 2 }, -- file system paths
 				{ name = "copilot", group_index = 2 }, --- copilot completion
 			}),
+
 			-- sorting of completion items
 			sorting = {
 				priority_weight = 2,
